@@ -1,0 +1,9 @@
+[11-Jan-2024 16:20:58 UTC] PHP Warning:  require(/home/xdsi/public_html/ludo.24xdsi.in/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/xdsi/public_html/ludo.24xdsi.in/public/index.php on line 34
+[11-Jan-2024 16:20:58 UTC] PHP Warning:  require(/home/xdsi/public_html/ludo.24xdsi.in/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/xdsi/public_html/ludo.24xdsi.in/public/index.php on line 34
+[11-Jan-2024 16:20:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/xdsi/public_html/ludo.24xdsi.in/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xdsi/public_html/ludo.24xdsi.in/public/index.php on line 34
+[11-Jan-2024 16:22:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/xdsi/public_html/ludo.24xdsi.in/bootstrap/app.php:14
+Stack trace:
+#0 /home/xdsi/public_html/ludo.24xdsi.in/public/index.php(47): require_once()
+#1 /home/xdsi/public_html/ludo.24xdsi.in/server.php(21): require_once('/home/xdsi/publ...')
+#2 {main}
+  thrown in /home/xdsi/public_html/ludo.24xdsi.in/bootstrap/app.php on line 14
